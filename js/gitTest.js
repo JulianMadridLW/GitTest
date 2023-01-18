@@ -1,20 +1,16 @@
 //Tag 3.0
-        // This is a comment from JS, later I will find the code that I need
-        // Right now I started practice to JS
-
-        //Class
-
-        class Car{
-            constructor(company, engine){
-                this.company = company;
-                this.engine = engine;
-            }
-            getInfo(){
-                return(
-                    `${this.company} has ${this.engine} engine`
-                );
-            }
-        }
+ //Class
+class Car{
+    constructor(company, engine){
+        this.company = company;
+        this.engine = engine;
+    }
+    getInfo(){
+        return(
+            `${this.company} has ${this.engine} engine`
+    );
+    }
+}
 
         //First Instance
 
