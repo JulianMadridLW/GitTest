@@ -22,75 +22,21 @@
             non distinctio porro. Asperiores odit fugiat molestiae soluta non consectetur, omnis, repellendus cumque vel, 
             sed enim odio saepe iusto numquam! Ipsa ea quos ratione nulla. Atque, asperiores.
         </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, vero eaque magnam iste praesentium optio 
+            perferendis est obcaecati nulla fuga nam voluptates animi, sunt exercitationem, accusamus consequuntur officia 
+            labore! Beatae alias sint aliquid minima. Fuga reprehenderit id error nostrum nisi repudiandae cupiditate officia, 
+            autem deserunt unde explicabo doloremque ut maiores eius tempore consectetur dicta rerum, excepturi fugiat minima facere! 
+            Repellendus ipsa cupiditate accusantium nam expedita dignissimos quae, asperiores corrupti velit voluptas saepe hic 
+            commodi assumenda veritatis sunt facilis reprehenderit. Saepe nulla iste ipsa aperiam ab atque voluptatibus similique 
+            aspernatur consequatur quibusdam, velit, minus officia nisi deleniti veritatis. Tempore iure eius labore harum aperiam 
+            magnam delectus ad quia fugit. Non dolorem, fugit natus ad sunt perferendis fugiat voluptatem id quisquam, facere 
+            inventore accusantium architecto perspiciatis distinctio MCHM.
+        </p>
     </article>
     <footer>
         <h6>Copyright &copy; Lone Wolf - 2023</h6>
     </footer>
-    <script>
-        //Tag 3.0
-        // This is a comment from JS, later I will find the code that I need
-        // Right now I started practice to JS
-
-        //Class
-
-        class Car{
-            constructor(company, engine){
-                this.company = company;
-                this.engine = engine;
-            }
-            getInfo(){
-                return(
-                    `${this.company} has ${this.engine} engine`
-                );
-            }
-        }
-
-        //First Instance
-
-        const firstCar = new Car('Bugatti', 'W16');
-        console.log(firstCar);
-        console.log(firstCar.getInfo());
-
-        const secondCar = new Car('Bently', 'V12');
-        console.log(secondCar);
-        console.log(secondCar.getInfo());
-
-        //Inheritance
-
-        class Sportscar extends Car{
-            constructor(company, engine, doors){
-                super(company, engine);
-                this.doors = doors;
-            }
-            speed(){
-                return '267mph';
-            }
-        }
-        const mySportCar = new Sportscar('Bugatti', 'W16', 2);
-
-        //Polymorphism
-
-        class Sedan extends Car{
-            constructor(company, engine, model){
-                super(company, engine);
-                this.model = model
-            }
-            speed(){
-                return '150mph';
-            }
-        }
-
-       const mySedan = new Sedan('Mercedes', 'V12', 'S-Class');
-
-       console.log(mySportCar);
-
-       console.log(mySportCar.speed());
-
-       console.log(mySedan);
-
-       console.log(mySedan.speed());
-
-       console.log('Hello');
-    </script>
+    <script src="js/gitTest.js"></script>
 </body>
 </html>
