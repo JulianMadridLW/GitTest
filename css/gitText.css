@@ -1,0 +1,27 @@
+/*Tag 2.0*/
+
+*{
+    box-sizing: border-box;
+}
+
+header{
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    height: 10rem;
+}
+
+article{
+    min-height: 100vh;
+}
+
+footer{
+    background-color: darkred;
+    color: lightgrey;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    height: 8rem;
+}
