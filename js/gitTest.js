@@ -1,5 +1,5 @@
 //Tag 3.0
- //Class
+//Class
 class Car{
     constructor(company, engine){
         this.company = company;
@@ -12,47 +12,48 @@ class Car{
     }
 }
 
-        //First Instance
+//First Instance
 
-        const firstCar = new Car('Bugatti', 'W16');
-        console.log(firstCar);
-        console.log(firstCar.getInfo());
+const firstCar = new Car('Bugatti', 'W16');
+console.log(firstCar);
+console.log(firstCar.getInfo());
 
-        const secondCar = new Car('Bently', 'V12');
-        console.log(secondCar);
-        console.log(secondCar.getInfo());
+const secondCar = new Car('Bently', 'V12');
+console.log(secondCar);
+console.log(secondCar.getInfo());
 
-        //Inheritance
+//Inheritance
+class Sportscar extends Car{
+    constructor(company, engine, doors){
+        super(company, engine);
+        this.doors = doors;
+    }
+    speed(){
+        return '267mph';
+    }
+}
+        
+const mySportCar = new Sportscar('Bugatti', 'W16', 2);
 
-        class Sportscar extends Car{
-            constructor(company, engine, doors){
-                super(company, engine);
-                this.doors = doors;
-            }
-            speed(){
-                return '267mph';
-            }
-        }
-        const mySportCar = new Sportscar('Bugatti', 'W16', 2);
+//Polymorphism
+class Sedan extends Car{
+    constructor(company, engine, model){
+        super(company, engine);
+        this.model = model
+    }
+    speed(){
+        return '150mph';
+    }
+}
 
-        //Polymorphism
+const mySedan = new Sedan('Mercedes', 'V12', 'S-Class');
 
-        class Sedan extends Car{
-            constructor(company, engine, model){
-                super(company, engine);
-                this.model = model
-            }
-            speed(){
-                return '150mph';
-            }
-        }
+//The results
 
-       const mySedan = new Sedan('Mercedes', 'V12', 'S-Class');
+console.log(mySportCar);
 
-       console.log(mySportCar);
+console.log(mySportCar.speed());
 
-       console.log(mySportCar.speed());
+console.log(mySedan);
 
-       console.log(mySedan);
-
-       console.log(mySedan.speed());
+console.log(mySedan.speed());
