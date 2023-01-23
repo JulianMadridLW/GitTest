@@ -1,0 +1,9 @@
+#Tag 5.0
+
+#Este archivo es para controlar que archivos que git debe ignorar para que no vayan a tu repositorio.
+#Para convocar este archivo desde Visual Studio Code, debo de hacer con el comando touch .gitignore en la terminal 
+#al igual que con el archivo readme.md se hace la misma invocación con el comando touch
+
+#Para más información dejo estos dos links
+#https://www.freecodecamp.org/espanol/news/gitignore-que-es-gitignore-y-como-anadirlo-a-tu-repositorio/
+#https://www.mclibre.org/consultar/informatica/lecciones/vsc-git-repositorio.html
