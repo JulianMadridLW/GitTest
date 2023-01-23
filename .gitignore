@@ -7,3 +7,5 @@
 #Para más información dejo estos dos links
 #https://www.freecodecamp.org/espanol/news/gitignore-que-es-gitignore-y-como-anadirlo-a-tu-repositorio/
 #https://www.mclibre.org/consultar/informatica/lecciones/vsc-git-repositorio.html
+
+*.exe
