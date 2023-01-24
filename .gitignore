@@ -9,5 +9,4 @@
 #https://www.mclibre.org/consultar/informatica/lecciones/vsc-git-repositorio.html
 
 *.exe
-commits.txt
-description.txt
+*.txt
